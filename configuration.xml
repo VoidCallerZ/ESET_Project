@@ -1,0 +1,616 @@
+<?xml version="1.0"?>
+<ESET>
+ <PRODUCT NAME="endpoint" VERSION="10.1.2058" EXPORTED_BY_CE="2083.3 (20230927); 2078">
+  <ITEM NAME="Settings">
+   <ITEM NAME="ApplicationManagement">
+    <ITEM NAME="ModificationDetector">
+     <ITEM NAME="ExcludedApplicationPaths" DELETE="1">
+      <NODE NAME="1" TYPE="string" VALUE="C:\Program Files (x86)\Advanced Monitoring Agent\winagent.exe" />
+     </ITEM>
+    </ITEM>
+   </ITEM>
+   <ITEM NAME="ExclusionsManagement">
+    <ITEM NAME="PerformanceExclusions" DELETE="1">
+     <ITEM NAME="1">
+      <NODE NAME="Path" TYPE="string" VALUE="C:\Program Files (x86)\Advanced Monitoring Agent\patchman" />
+     </ITEM>
+     <ITEM NAME="2">
+      <NODE NAME="Path" TYPE="string" VALUE="C:\ProgramData\GFI" />
+     </ITEM>
+     <ITEM NAME="3">
+      <NODE NAME="Path" TYPE="string" VALUE="C:\Program Files (x86)\Take Control Agent" />
+     </ITEM>
+     <ITEM NAME="4">
+      <NODE NAME="Path" TYPE="string" VALUE="C:\ProgramData\GetSupportService_LOGICnow" />
+     </ITEM>
+    </ITEM>
+    <ITEM NAME="DetectionExclusions" DELETE="1">
+     <ITEM NAME="1">
+      <NODE NAME="Id" TYPE="string" VALUE="1b33aa0e-9bdd-48b6-a3d4-024d0000000c" />
+      <NODE NAME="Description" TYPE="string" VALUE=" @ kleintjepils.nl.tar.gz" />
+      <NODE NAME="FileHash" TYPE="string" VALUE="5325D1F8591ED084B6B3FA39E0D51907186B46D2" />
+     </ITEM>
+     <ITEM NAME="2">
+      <NODE NAME="Id" TYPE="string" VALUE="80549902-b7ba-4ff6-a7eb-e01f0000000d" />
+      <NODE NAME="Description" TYPE="string" VALUE=" @ kleintjepils.nl.tar" />
+      <NODE NAME="FileHash" TYPE="string" VALUE="FCCAE586C41A085D9721366DF56324F75BDD93AC" />
+     </ITEM>
+     <ITEM NAME="3">
+      <NODE NAME="Id" TYPE="string" VALUE="1dd2ac50-16ab-4e16-a4a9-a1fd0000000e" />
+      <NODE NAME="Description" TYPE="string" VALUE=" @ 1458582138.8541_0.hosting8" />
+      <NODE NAME="FileHash" TYPE="string" VALUE="29AFE61ABFDCAE44013256E25B5E38675A56739C" />
+     </ITEM>
+     <ITEM NAME="4">
+      <NODE NAME="Id" TYPE="string" VALUE="f2942e05-1c22-47d5-aa7e-0bad0000000f" />
+      <NODE NAME="Description" TYPE="string" VALUE=" @ file:///https://79.99.130.199:8710/cgi-bin/filemanager/utilRequest.cgi/kleintjepils.nl.tar.gz/https://79.99.130.199:8710/cgi-bin/filemanager/utilRequest.cgi/kleintjepils.nl.tar/./Maildir/.spam/new/1458582138.8541_0.hosting8/" />
+      <NODE NAME="FileHash" TYPE="string" VALUE="700F038EF05592FA7D7AB4E6EE3BF72C9FA67B39" />
+     </ITEM>
+     <ITEM NAME="5">
+      <NODE NAME="Id" TYPE="string" VALUE="8bc6341e-f9f1-417b-afcf-f11000000010" />
+      <NODE NAME="Description" TYPE="string" VALUE=" @ thank_you_order_822589.zip" />
+      <NODE NAME="FileHash" TYPE="string" VALUE="7B6E3F02C03D10BD0A4D9EF956AE6803F0378EE7" />
+     </ITEM>
+     <ITEM NAME="6">
+      <NODE NAME="Id" TYPE="string" VALUE="82e6c9a7-3455-4b0b-a4f4-496f0000000c" />
+      <NODE NAME="Path" TYPE="string" VALUE="///Uefi Partition" />
+      <NODE NAME="ThreatName" TYPE="string" VALUE="@name=EFI/CompuTrace.E" />
+     </ITEM>
+     <ITEM NAME="7">
+      <NODE NAME="Id" TYPE="string" VALUE="2538335d-2cf0-45e2-9a5b-0fb50000000d" />
+      <NODE NAME="Path" TYPE="string" VALUE="///Uefi Partition/uefi:\\Volume 1\HPComputrace" />
+      <NODE NAME="ThreatName" TYPE="string" VALUE="@name=EFI/CompuTrace.E" />
+     </ITEM>
+     <ITEM NAME="8">
+      <NODE NAME="Id" TYPE="string" VALUE="0a2d16f1-2415-44ae-b0e8-a04a0000000e" />
+      <NODE NAME="ThreatName" TYPE="string" VALUE="@name=EFI/CompuTrace.A" />
+     </ITEM>
+     <ITEM NAME="9">
+      <NODE NAME="Id" TYPE="string" VALUE="ab218b4e-7349-4e33-8211-f7d500000011" />
+      <NODE NAME="Path" TYPE="string" VALUE="///Uefi Partition" />
+      <NODE NAME="ThreatName" TYPE="string" VALUE="@name=EFI/CompuTrace.E" />
+     </ITEM>
+     <ITEM NAME="A">
+      <NODE NAME="Id" TYPE="string" VALUE="6f182f03-3c15-4fc3-a5da-ce2900000012" />
+      <NODE NAME="Path" TYPE="string" VALUE="///Uefi Partition/uefi:\\Volume 1\HPComputracePrivateSrc" />
+      <NODE NAME="ThreatName" TYPE="string" VALUE="@name=EFI/CompuTrace.E" />
+     </ITEM>
+     <ITEM NAME="B">
+      <NODE NAME="Id" TYPE="string" VALUE="3fc99c4f-1917-4a49-8a8c-5cad0000000c" />
+      <NODE NAME="Description" TYPE="string" VALUE="HTML/ScrInject.B @ f_001721" />
+      <NODE NAME="FileHash" TYPE="string" VALUE="5445A88332492242F75625475E0BED28142F1579" />
+     </ITEM>
+     <ITEM NAME="C">
+      <NODE NAME="Id" TYPE="string" VALUE="8bb83dec-df82-479c-89c6-232f0000000d" />
+      <NODE NAME="Description" TYPE="string" VALUE="HTML/ScrInject.B @ f_0017ed" />
+      <NODE NAME="FileHash" TYPE="string" VALUE="BE66854F0AEE134616E19290E61510734125C058" />
+     </ITEM>
+     <ITEM NAME="D">
+      <NODE NAME="Id" TYPE="string" VALUE="13cb9142-3141-491b-9592-ade80000000e" />
+      <NODE NAME="Description" TYPE="string" VALUE="HTML/ScrInject.B @ f_001f62" />
+      <NODE NAME="FileHash" TYPE="string" VALUE="7B0BB79481CEB7DBED75EEDA76723D76A27BCDFE" />
+     </ITEM>
+     <ITEM NAME="E">
+      <NODE NAME="Id" TYPE="string" VALUE="18693f06-d46c-4cd1-a6e1-e46b0000000c" />
+      <NODE NAME="Description" TYPE="string" VALUE="EFI/CompuTrace.E @ Uefi Partition" />
+      <NODE NAME="FileHash" TYPE="string" VALUE="035509ACF80ACB2B2C15E0C577A9ED5201B78E48" />
+     </ITEM>
+     <ITEM NAME="F">
+      <NODE NAME="Id" TYPE="string" VALUE="60343d58-8cb9-4543-ab3b-1d770000000d" />
+      <NODE NAME="Description" TYPE="string" VALUE="EFI/CompuTrace.E @ HPComputrace" />
+      <NODE NAME="FileHash" TYPE="string" VALUE="3E8BB897CA4C9F9EBCFC52C72C8566FAE5315D68" />
+     </ITEM>
+     <ITEM NAME="10">
+      <NODE NAME="Id" TYPE="string" VALUE="59293f6a-c8f4-40b0-bb03-db5f0000000e" />
+      <NODE NAME="ThreatName" TYPE="string" VALUE="@name=EFI/CompuTrace.E" />
+     </ITEM>
+     <ITEM NAME="11">
+      <NODE NAME="Id" TYPE="string" VALUE="a6ccbe30-4367-447f-9fd7-9d7a0000000c" />
+      <NODE NAME="FileHash" TYPE="string" VALUE="942AD9AA3C6EBAC526A5ECB72F964B7353D22FE1" />
+     </ITEM>
+    </ITEM>
+   </ITEM>
+   <ITEM NAME="LiveGrid">
+    <NODE NAME="SubmitStatistics" TYPE="number" VALUE="0" />
+    <NODE NAME="ContactEmail" TYPE="string" VALUE="eset@pwa.it" />
+    <NODE NAME="SubmitInfectedFiles" TYPE="number" VALUE="0" />
+    <NODE NAME="SubmitSuspiciousDocuments" TYPE="number" VALUE="1" />
+    <NODE NAME="DeleteSuspiciousDocumentSamples" TYPE="number" VALUE="2" />
+    <NODE NAME="SubmitStatisticsChosen" TYPE="number" VALUE="1" />
+    <NODE NAME="LiveGridFeedbackEnabled" TYPE="number" VALUE="1" />
+   </ITEM>
+   <ITEM NAME="Updater">
+    <ITEM NAME="AcceptedEulas" DELETE="1">
+     <ITEM NAME="1">
+      <NODE NAME="Tag" TYPE="string" VALUE="EULA-PRODUCT-LG" />
+      <NODE NAME="Version" TYPE="string" VALUE="3537.0.0" />
+     </ITEM>
+    </ITEM>
+    <ITEM NAME="AutoUpdates">
+     <NODE NAME="Enabled" TYPE="number" VALUE="1" />
+    </ITEM>
+   </ITEM>
+  </ITEM>
+  <ITEM NAME="State">
+   <ITEM NAME="EmailClients">
+    <NODE NAME="GlobalIntegrationStamp" TYPE="number" VALUE="7486FC73" />
+   </ITEM>
+   <ITEM NAME="Firewall">
+    <NODE NAME="TemporaryDisabled" TYPE="number" VALUE="1" />
+   </ITEM>
+   <ITEM NAME="NetworkAccessProtection">
+    <ITEM NAME="NetworkConnections" DELETE="1">
+     <ITEM NAME="1">
+      <NODE NAME="Uuid" TYPE="string" VALUE="abe77f95-3808-415c-a534-36c200000001" />
+      <NODE NAME="DisplayName" TYPE="string" VALUE="mshome.net" />
+      <NODE NAME="ProfileUuid" TYPE="string" VALUE="ffffffff-ffff-ffff-ffff-ffff02000000" />
+      <NODE NAME="NetworkInterfaceType" TYPE="number" VALUE="1" />
+      <NODE NAME="NetworkInterfaceName" TYPE="string" VALUE="Ethernet" />
+      <NODE NAME="NetworkInterfaceDescription" TYPE="string" VALUE="Microsoft Hyper-V Network Adapter" />
+      <NODE NAME="NetworkInterfaceIpAddresses" TYPE="string" VALUE="172.17.133.218/20,fe80::bfdb:c169:f156:8b88/64" />
+      <NODE NAME="NetworkInterfaceMacAddress" TYPE="string" VALUE="00:15:5D:00:7B:06" />
+      <NODE NAME="DnsSuffix" TYPE="string" VALUE="mshome.net" />
+      <NODE NAME="DnsServerIpAddresses" TYPE="string" VALUE="172.17.128.1" />
+      <NODE NAME="DhcpServerIpAddresses" TYPE="string" VALUE="172.17.128.1" />
+      <NODE NAME="DefaultIpv4GatewayMacAddress" TYPE="string" VALUE="00:15:5D:61:80:CC" />
+      <NODE NAME="DefaultGatewayIpAddresses" TYPE="string" VALUE="172.17.128.1" />
+      <NODE NAME="Security" TYPE="number" VALUE="2" />
+      <NODE NAME="WindowsProfile" TYPE="number" VALUE="3" />
+      <NODE NAME="FirstConnectionTime" TYPE="number" VALUE="65520200" />
+      <NODE NAME="LastConnectionTime" TYPE="number" VALUE="65520200" />
+      <NODE NAME="Connected" TYPE="number" VALUE="1" />
+      <NODE NAME="PhysicalAdapter" TYPE="number" VALUE="1" />
+     </ITEM>
+    </ITEM>
+   </ITEM>
+   <ITEM NAME="Platform">
+    <ITEM NAME="Info">
+     <NODE NAME="VersionId" TYPE="number" VALUE="A0001080A0000" />
+    </ITEM>
+   </ITEM>
+  </ITEM>
+  <ITEM NAME="gui">
+   <ITEM NAME="UI_CONFIG">
+    <NODE NAME="GuiStartMode" TYPE="number" VALUE="3" />
+   </ITEM>
+  </ITEM>
+  <ITEM NAME="plugins">
+   <ITEM NAME="01000001">
+    <ITEM NAME="settings">
+     <ITEM NAME="options">
+      <NODE NAME="LogBlocked" TYPE="number" VALUE="1" />
+      <NODE NAME="ReportStartupChangesDefaultOff" TYPE="number" VALUE="1" />
+     </ITEM>
+    </ITEM>
+   </ITEM>
+   <ITEM NAME="01000006">
+    <ITEM NAME="settings">
+     <ITEM NAME="Ekrn">
+      <ITEM NAME="Info">
+       <NODE NAME="LastLicenseWarning" TYPE="number" VALUE="6552032C" />
+      </ITEM>
+     </ITEM>
+    </ITEM>
+   </ITEM>
+   <ITEM NAME="01000100">
+    <ITEM NAME="scan_idle_config">
+     <NODE NAME="IdleEnableScanner" TYPE="number" VALUE="1" />
+    </ITEM>
+   </ITEM>
+   <ITEM NAME="01000101">
+    <ITEM NAME="settings">
+     <NODE NAME="ScanNetwork" TYPE="number" VALUE="0" />
+     <ITEM NAME="ExcludedProcesses" DELETE="1">
+      <NODE NAME="1" TYPE="string" VALUE="C:\Program Files\Advanced Monitoring Agent Network Management\NetworkManagement.exe" />
+      <NODE NAME="2" TYPE="string" VALUE="C:\Program Files\Netpath\NetPath Agent\Netpath.exe" />
+      <NODE NAME="3" TYPE="string" VALUE="C:\Program Files (x86)\Advanced Monitoring Agent\winagent.exe" />
+      <NODE NAME="4" TYPE="string" VALUE="C:\Program Files\Advanced Monitoring Agent Network Management\AMDeploymentService.exe" />
+      <NODE NAME="5" TYPE="string" VALUE="C:\Program Files (x86)\Take Control Agent\BASupSrvcCnfg.exe" />
+      <NODE NAME="6" TYPE="string" VALUE="C:\Program Files (x86)\Take Control Agent\BASupSrvc.exe" />
+      <NODE NAME="7" TYPE="string" VALUE="C:\Program Files (x86)\Advanced Monitoring Agent\downloads\NetworkManagementInstall.exe" />
+      <NODE NAME="8" TYPE="string" VALUE="C:\Program Files (x86)\Advanced Monitoring Agent\patchman\SolarWinds.MSP.PME.Agent.exe" />
+      <NODE NAME="9" TYPE="string" VALUE="C:\Program Files (x86)\Advanced Monitoring Agent\patchman\Installers\CacheServiceSetup.exe" />
+      <NODE NAME="A" TYPE="string" VALUE="C:\Program Files (x86)\Advanced Monitoring Agent\patchman\Installers\RPCServerServiceSetup.exe" />
+      <NODE NAME="B" TYPE="string" VALUE="C:\Program Files (x86)\Advanced Monitoring Agent\patchman\ExtProcess.exe" />
+      <NODE NAME="C" TYPE="string" VALUE="C:\Program Files (x86)\Advanced Monitoring Agent\CacheService\SolarWinds.MSP.CacheService.DiagnosticTool.exe" />
+      <NODE NAME="D" TYPE="string" VALUE="C:\Program Files (x86)\Advanced Monitoring Agent\CacheService\SolarWinds.MSP.CacheService.exe" />
+      <NODE NAME="E" TYPE="string" VALUE="C:\Program Files (x86)\Advanced Monitoring Agent\RpcServer\SolarWinds.MSP.RpcServerService.exe" />
+      <NODE NAME="F" TYPE="string" VALUE="C:\Program Files (x86)\Advanced Monitoring Agent\patchman\Diagnostics\SolarwindsDiagnostics.exe" />
+      <NODE NAME="10" TYPE="string" VALUE="C:\Program Files (x86)\Advanced Monitoring Agent\wsus3.exe" />
+      <NODE NAME="11" TYPE="string" VALUE="C:\Program Files (x86)\Advanced Monitoring Agent\wsus2.exe" />
+      <NODE NAME="12" TYPE="string" VALUE="C:\Program Files (x86)\Advanced Monitoring Agent\wsus2.exe" />
+      <NODE NAME="13" TYPE="string" VALUE="C:\Program Files (x86)\Advanced Monitoring Agent\assetscan.exe" />
+      <NODE NAME="14" TYPE="string" VALUE="C:\Program Files (x86)\Advanced Monitoring Agent\ScriptRunner\ScriptRunnerInstaller.exe" />
+     </ITEM>
+    </ITEM>
+   </ITEM>
+   <ITEM NAME="01000103">
+    <ITEM NAME="settings">
+     <NODE NAME="m_dwRegister" TYPE="number" VALUE="1" />
+    </ITEM>
+   </ITEM>
+   <ITEM NAME="01000200">
+    <ITEM NAME="modEpfw">
+     <ITEM NAME="stIdsExceptions" DELETE="1">
+      <ITEM NAME="1">
+       <NODE NAME="exceptionID" TYPE="string" VALUE="1f30da26-40ae-47b9-a568-97a800000010" />
+       <NODE NAME="strAppPath" TYPE="string" VALUE="C:\Program Files\Advanced Monitoring Agent Network Management\NetworkManagement.exe" />
+       <ITEM NAME="stAction">
+        <NODE NAME="eActionBlock" TYPE="number" VALUE="2" />
+        <NODE NAME="eActionNotify" TYPE="number" VALUE="2" />
+        <NODE NAME="eActionLog" TYPE="number" VALUE="2" />
+       </ITEM>
+      </ITEM>
+      <ITEM NAME="2">
+       <NODE NAME="exceptionID" TYPE="string" VALUE="eac84323-9bad-44c0-a2c2-f51a00000011" />
+       <NODE NAME="strAppPath" TYPE="string" VALUE="C:\Program Files\Netpath\NetPath Agent\Netpath.exe" />
+       <ITEM NAME="stAction">
+        <NODE NAME="eActionBlock" TYPE="number" VALUE="2" />
+        <NODE NAME="eActionNotify" TYPE="number" VALUE="2" />
+        <NODE NAME="eActionLog" TYPE="number" VALUE="2" />
+       </ITEM>
+      </ITEM>
+      <ITEM NAME="3">
+       <NODE NAME="exceptionID" TYPE="string" VALUE="fca3122e-ca8d-4dab-a6ad-022400000012" />
+       <NODE NAME="strAppPath" TYPE="string" VALUE="C:\Program Files (x86)\Advanced Monitoring Agent\winagent.exe" />
+       <ITEM NAME="stAction">
+        <NODE NAME="eActionBlock" TYPE="number" VALUE="2" />
+        <NODE NAME="eActionNotify" TYPE="number" VALUE="2" />
+        <NODE NAME="eActionLog" TYPE="number" VALUE="2" />
+       </ITEM>
+      </ITEM>
+      <ITEM NAME="4">
+       <NODE NAME="exceptionID" TYPE="string" VALUE="52f37e72-ea5d-47b0-9a67-5dd100000013" />
+       <NODE NAME="strAppPath" TYPE="string" VALUE="C:\Program Files\Advanced Monitoring Agent Network Management\AMDeploymentService.exe" />
+       <ITEM NAME="stAction">
+        <NODE NAME="eActionBlock" TYPE="number" VALUE="2" />
+        <NODE NAME="eActionNotify" TYPE="number" VALUE="2" />
+        <NODE NAME="eActionLog" TYPE="number" VALUE="2" />
+       </ITEM>
+      </ITEM>
+      <ITEM NAME="5">
+       <NODE NAME="exceptionID" TYPE="string" VALUE="0acdf572-515e-45fd-8d55-4ea100000014" />
+       <NODE NAME="strAppPath" TYPE="string" VALUE="C:\Program Files (x86)\Take Control Agent\BASupSrvc.exe" />
+      </ITEM>
+      <ITEM NAME="6">
+       <NODE NAME="exceptionID" TYPE="string" VALUE="30b666a0-2ae9-401a-99e3-019500000015" />
+       <NODE NAME="strAppPath" TYPE="string" VALUE="C:\Program Files (x86)\Take Control Agent\BASupSrvcCnfg.exe" />
+      </ITEM>
+     </ITEM>
+    </ITEM>
+    <ITEM NAME="modProtoscan">
+     <ITEM NAME="stSsl">
+      <NODE NAME="bSslEnabled" TYPE="number" VALUE="0" />
+     </ITEM>
+    </ITEM>
+    <ITEM NAME="settings">
+     <ITEM NAME="stProtocolFiltering">
+      <ITEM NAME="strExcludeApps" DELETE="1">
+       <NODE NAME="1" TYPE="string" VALUE="C:\Program Files\Advanced Monitoring Agent Network Management\NetworkManagement.exe" />
+       <NODE NAME="2" TYPE="string" VALUE="C:\Program Files\Netpath\NetPath Agent\Netpath.exe" />
+       <NODE NAME="3" TYPE="string" VALUE="C:\Program Files (x86)\Advanced Monitoring Agent\winagent.exe" />
+       <NODE NAME="4" TYPE="string" VALUE="C:\Program Files\Advanced Monitoring Agent Network Management\AMDeploymentService.exe" />
+       <NODE NAME="5" TYPE="string" VALUE="C:\Program Files (x86)\Take Control Agent\BASupSrvcCnfg.exe" />
+       <NODE NAME="6" TYPE="string" VALUE="C:\Program Files (x86)\Take Control Agent\BASupSrvc.exe" />
+      </ITEM>
+      <ITEM NAME="stUrlLists" DELETE="1">
+       <ITEM NAME="1">
+        <NODE NAME="bDefault" TYPE="number" VALUE="1" />
+        <NODE NAME="eListType" TYPE="number" VALUE="2" />
+        <NODE NAME="strListName" TYPE="string" VALUE="@" />
+        <NODE NAME="uResIdListName" TYPE="number" VALUE="13170052" />
+        <ITEM NAME="strAddresses" DELETE="1">
+         <NODE NAME="1" TYPE="string" VALUE="software.gfi.com/*" />
+         <NODE NAME="2" TYPE="string" VALUE="go.microsoft.com/*" />
+         <NODE NAME="3" TYPE="string" VALUE="*.download.microsoft.com" />
+         <NODE NAME="4" TYPE="string" VALUE="*.windowsupdate.com" />
+         <NODE NAME="5" TYPE="string" VALUE="*.update.microsoft.com" />
+        </ITEM>
+        <NODE NAME="eSeverity" TYPE="number" VALUE="1" />
+       </ITEM>
+       <ITEM NAME="2">
+        <NODE NAME="bDefault" TYPE="number" VALUE="1" />
+        <NODE NAME="eListType" TYPE="number" VALUE="1" />
+        <NODE NAME="strListName" TYPE="string" VALUE="@" />
+        <NODE NAME="uResIdListName" TYPE="number" VALUE="13170053" />
+        <NODE NAME="eSeverity" TYPE="number" VALUE="2" />
+       </ITEM>
+       <ITEM NAME="3">
+        <NODE NAME="bDefault" TYPE="number" VALUE="1" />
+        <NODE NAME="strListName" TYPE="string" VALUE="@" />
+        <NODE NAME="uResIdListName" TYPE="number" VALUE="13170054" />
+        <ITEM NAME="strAddresses" DELETE="1">
+         <NODE NAME="1" TYPE="string" VALUE="software.gfi.com/*" />
+         <NODE NAME="2" TYPE="string" VALUE="go.microsoft.com/*" />
+         <NODE NAME="3" TYPE="string" VALUE="*.download.microsoft.com" />
+         <NODE NAME="4" TYPE="string" VALUE="*.windowsupdate.com" />
+         <NODE NAME="5" TYPE="string" VALUE="*.update.microsoft.com" />
+        </ITEM>
+       </ITEM>
+      </ITEM>
+     </ITEM>
+    </ITEM>
+   </ITEM>
+   <ITEM NAME="01000300">
+    <ITEM NAME="settings">
+     <NODE NAME="EnableAdvancedAntispam" TYPE="number" VALUE="1" />
+    </ITEM>
+   </ITEM>
+   <ITEM NAME="01000400">
+    <ITEM NAME="profile">
+     <ITEM NAME="profile" DELETE="1">
+      <ITEM NAME="1">
+       <ITEM NAME="settings">
+        <ITEM NAME="UPDATE_CFG">
+         <NODE NAME="UpdateUrl" TYPE="string" VALUE="AUTOSELECT" />
+         <NODE NAME="UseProxy" TYPE="number" VALUE="0" />
+        </ITEM>
+       </ITEM>
+       <NODE NAME="name" TYPE="string" VALUE="@My profile" />
+      </ITEM>
+     </ITEM>
+    </ITEM>
+    <ITEM NAME="settings">
+     <NODE NAME="BackupEnabled" TYPE="number" VALUE="0" />
+    </ITEM>
+   </ITEM>
+   <ITEM NAME="01000600">
+    <ITEM NAME="settings">
+     <ITEM NAME="EKRN_CFG">
+      <NODE NAME="DefaultMessageAccount" TYPE="string" VALUE="Administrator, PWA_Beheerder, PWA_Service_User" />
+      <NODE NAME="LockPasswordPublicKey" TYPE="password" VALUE="JdaW6arwyfI6ZAKtxMhOdZsxG7w2+OwMDN1C3aDKbExfSD5QmG/IDP2zyBaqx12xCBMz7UARs+L9Q+uTbAB+7QN8tPRVN2Km04xDLc64EsxLb2zuyNBXkA==" />
+      <NODE NAME="IncomingEmailTagLevel" TYPE="number" VALUE="0" />
+      <NODE NAME="OutgoingEmailTagLevel" TYPE="number" VALUE="0" />
+      <NODE NAME="m_dwGamerModeTimeout" TYPE="number" VALUE="3C" />
+      <NODE NAME="m_bGamerModeTimeoutEnabled" TYPE="number" VALUE="1" />
+      <NODE NAME="CrashDumpSupport" TYPE="number" VALUE="2" />
+     </ITEM>
+     <ITEM NAME="Quarantine">
+      <ITEM NAME="UserQuarantineDirPaths" DELETE="1">
+       <ITEM NAME="1">
+        <NODE NAME="Path" TYPE="string" VALUE="C:\Windows\system32\config\systemprofile\AppData\Local\ESET\ESET Security\Quarantine\" />
+        <NODE NAME="UserSID" TYPE="string" VALUE="S-1-5-18" />
+       </ITEM>
+       <ITEM NAME="2">
+        <NODE NAME="Path" TYPE="string" VALUE="C:\Users\Rick\AppData\Local\ESET\ESET Security\Quarantine\" />
+        <NODE NAME="UserSID" TYPE="string" VALUE="S-1-5-21-962548650-2297259670-3847608311-1001" />
+       </ITEM>
+      </ITEM>
+     </ITEM>
+     <ITEM NAME="GlobalScanner">
+      <ITEM NAME="Unwanted">
+       <NODE NAME="Reporting" TYPE="number" VALUE="14" />
+       <NODE NAME="Protection" TYPE="number" VALUE="14" />
+      </ITEM>
+      <ITEM NAME="Unsafe">
+       <NODE NAME="Reporting" TYPE="number" VALUE="14" />
+       <NODE NAME="Protection" TYPE="number" VALUE="14" />
+      </ITEM>
+     </ITEM>
+    </ITEM>
+   </ITEM>
+   <ITEM NAME="01000800">
+    <ITEM NAME="settings">
+     <NODE NAME="OutlookIntegrationEnabled" TYPE="number" VALUE="0" />
+    </ITEM>
+   </ITEM>
+   <ITEM NAME="ShellExt">
+    <ITEM NAME="settings">
+     <NODE NAME="active" TYPE="number" VALUE="0" />
+    </ITEM>
+   </ITEM>
+  </ITEM>
+  <ITEM NAME="scanners">
+   <ITEM NAME="01010100">
+    <ITEM NAME="profile">
+     <ITEM NAME="profile" DELETE="1">
+      <ITEM NAME="1">
+       <ITEM NAME="settings">
+        <NODE NAME="PreserveFileTimesEnable" TYPE="number" VALUE="1" />
+       </ITEM>
+       <NODE NAME="name" TYPE="string" VALUE="@Smart scan" />
+      </ITEM>
+      <ITEM NAME="2">
+       <ITEM NAME="settings">
+        <NODE NAME="ArchiveEnable" TYPE="number" VALUE="1" />
+        <NODE NAME="CleanLevel" TYPE="number" VALUE="1" />
+        <NODE NAME="MemoryEnable" TYPE="number" VALUE="0" />
+        <NODE NAME="SectorEnable" TYPE="number" VALUE="0" />
+       </ITEM>
+       <NODE NAME="name" TYPE="string" VALUE="@Shellext scan" />
+      </ITEM>
+      <ITEM NAME="3">
+       <ITEM NAME="settings">
+        <NODE NAME="ArchiveEnable" TYPE="number" VALUE="1" />
+        <NODE NAME="CleanLevel" TYPE="number" VALUE="1" />
+        <NODE NAME="SmartEnable" TYPE="number" VALUE="0" />
+       </ITEM>
+       <NODE NAME="name" TYPE="string" VALUE="@In-depth scan" />
+      </ITEM>
+      <ITEM NAME="4">
+       <ITEM NAME="settings">
+        <NODE NAME="DefaultTargets" TYPE="string" VALUE="${Memory}|${DriveFixedBoot}|${DriveFixed}" />
+       </ITEM>
+       <NODE NAME="name" TYPE="string" VALUE="@Computer scan" />
+      </ITEM>
+     </ITEM>
+    </ITEM>
+   </ITEM>
+   <ITEM NAME="01010101">
+    <ITEM NAME="profile">
+     <ITEM NAME="profile" DELETE="1">
+      <ITEM NAME="1">
+       <ITEM NAME="settings">
+        <NODE NAME="AdvancedHeuristicsEnable" TYPE="number" VALUE="1" />
+        <NODE NAME="RtpEnable" TYPE="number" VALUE="1" />
+       </ITEM>
+       <NODE NAME="name" TYPE="string" VALUE="@My profile" />
+      </ITEM>
+     </ITEM>
+    </ITEM>
+   </ITEM>
+   <ITEM NAME="01010102">
+    <ITEM NAME="profile">
+     <ITEM NAME="profile" DELETE="1">
+      <ITEM NAME="1">
+       <NODE NAME="name" TYPE="string" VALUE="@My profile" />
+      </ITEM>
+     </ITEM>
+    </ITEM>
+   </ITEM>
+   <ITEM NAME="01010104">
+    <ITEM NAME="profile">
+     <ITEM NAME="profile" DELETE="1">
+      <ITEM NAME="1">
+       <NODE NAME="name" TYPE="string" VALUE="@My profile" />
+      </ITEM>
+     </ITEM>
+    </ITEM>
+   </ITEM>
+   <ITEM NAME="01010106">
+    <ITEM NAME="profile">
+     <ITEM NAME="profile" DELETE="1">
+      <ITEM NAME="1">
+       <ITEM NAME="settings">
+        <NODE NAME="PreserveFileTimesEnable" TYPE="number" VALUE="1" />
+       </ITEM>
+       <NODE NAME="name" TYPE="string" VALUE="@My profile" />
+      </ITEM>
+     </ITEM>
+    </ITEM>
+   </ITEM>
+   <ITEM NAME="01020105">
+    <ITEM NAME="profile">
+     <ITEM NAME="profile" DELETE="1">
+      <ITEM NAME="1">
+       <NODE NAME="name" TYPE="string" VALUE="@My profile" />
+      </ITEM>
+     </ITEM>
+    </ITEM>
+   </ITEM>
+   <ITEM NAME="01030200">
+    <ITEM NAME="profile">
+     <ITEM NAME="profile" DELETE="1">
+      <ITEM NAME="1">
+       <NODE NAME="name" TYPE="string" VALUE="@My profile" />
+      </ITEM>
+     </ITEM>
+    </ITEM>
+   </ITEM>
+  </ITEM>
+  <ITEM NAME="scheduler">
+   <ITEM NAME="data" DELETE="1">
+    <ITEM NAME="1">
+     <NODE NAME="Guid" TYPE="string" VALUE="ffffffff-ffff-ffff-ffff-ffff80000001" />
+     <NODE NAME="NameResId" TYPE="number" VALUE="13230001" />
+     <NODE NAME="ActionCode" TYPE="number" VALUE="1" />
+     <NODE NAME="TriggerType" TYPE="number" VALUE="2" />
+     <NODE NAME="TriggerSettingsTime" TYPE="number" VALUE="2A30" />
+     <NODE NAME="StartFailSettings" TYPE="number" VALUE="1" />
+     <NODE NAME="EditedTime" TYPE="number" VALUE="655201FD" />
+    </ITEM>
+    <ITEM NAME="2">
+     <NODE NAME="Guid" TYPE="string" VALUE="ffffffff-ffff-ffff-ffff-ffff80000100" />
+     <NODE NAME="NameResId" TYPE="number" VALUE="13230007" />
+     <NODE NAME="ModuleID" TYPE="number" VALUE="1000400" />
+     <NODE NAME="TriggerType" TYPE="number" VALUE="1" />
+     <NODE NAME="TriggerSettingsTime" TYPE="number" VALUE="3C" />
+     <NODE NAME="Params" TYPE="string" VALUE="&lt;?xml version=&quot;1.0&quot;?>&lt;SCHEDULED_TASK>&lt;SCHEDULED_TASK PLUGIN=&quot;16778240&quot; ACTION=&quot;0&quot; DESCRIPTION=&quot;&quot;>&lt;DATA>&lt;NODE NAME=&quot;PROFILE&quot; VALUE=&quot;&quot; TYPE=&quot;STRING&quot;/>&lt;NODE NAME=&quot;PROFILE_ALT&quot; VALUE=&quot;&quot; TYPE=&quot;STRING&quot;/>&lt;NODE NAME=&quot;AFTER_SCAN_ACTION_TYPE&quot; VALUE=&quot;0&quot; TYPE=&quot;DWORD&quot;/>&lt;NODE NAME=&quot;SCAN_CANNOT_BE_CANCELLED&quot; VALUE=&quot;0&quot; TYPE=&quot;DWORD&quot;/>&lt;/DATA>&lt;/SCHEDULED_TASK>&lt;/SCHEDULED_TASK>" />
+     <NODE NAME="EditedTime" TYPE="number" VALUE="655201FD" />
+    </ITEM>
+    <ITEM NAME="3">
+     <NODE NAME="Guid" TYPE="string" VALUE="ffffffff-ffff-ffff-ffff-ffff80000101" />
+     <NODE NAME="NameResId" TYPE="number" VALUE="13230008" />
+     <NODE NAME="ModuleID" TYPE="number" VALUE="1000400" />
+     <NODE NAME="TriggerType" TYPE="number" VALUE="4" />
+     <NODE NAME="TriggerSettings" TYPE="number" VALUE="2" />
+     <NODE NAME="TriggerSettingsTime" TYPE="number" VALUE="1" />
+     <NODE NAME="EditedTime" TYPE="number" VALUE="655201FD" />
+    </ITEM>
+    <ITEM NAME="4">
+     <NODE NAME="Guid" TYPE="string" VALUE="ffffffff-ffff-ffff-ffff-ffff80000102" />
+     <NODE NAME="NameResId" TYPE="number" VALUE="13230009" />
+     <NODE NAME="ModuleID" TYPE="number" VALUE="1000400" />
+     <NODE NAME="TriggerType" TYPE="number" VALUE="4" />
+     <NODE NAME="TriggerSettings" TYPE="number" VALUE="5" />
+     <NODE NAME="TriggerSettingsTime" TYPE="number" VALUE="1" />
+     <NODE NAME="EditedTime" TYPE="number" VALUE="655201FD" />
+    </ITEM>
+    <ITEM NAME="5">
+     <NODE NAME="Guid" TYPE="string" VALUE="ffffffff-ffff-ffff-ffff-ffff80000003" />
+     <NODE NAME="NameResId" TYPE="number" VALUE="1323000A" />
+     <NODE NAME="ActionCode" TYPE="number" VALUE="2" />
+     <NODE NAME="TriggerType" TYPE="number" VALUE="4" />
+     <NODE NAME="TriggerSettings" TYPE="number" VALUE="5" />
+     <NODE NAME="StartFailSettings" TYPE="number" VALUE="1" />
+     <NODE NAME="DontExecuteOnBattery" TYPE="number" VALUE="1" />
+     <NODE NAME="Params" TYPE="string" VALUE="&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot;?>&lt;PARAMS>&lt;SCHEDULED_TASK PLUGIN=&quot;1000600&quot; ACTION=&quot;2&quot; DESCRIPTION=&quot;&quot;>&lt;DATA>&lt;NODE NAME=&quot;thread_priority&quot; VALUE=&quot;FFFFFFFE&quot; TYPE=&quot;DWORD&quot; />&lt;NODE NAME=&quot;scan_level&quot; VALUE=&quot;1&quot; TYPE=&quot;DWORD&quot; />&lt;/DATA>&lt;/SCHEDULED_TASK>&lt;/PARAMS>" />
+     <NODE NAME="EditedTime" TYPE="number" VALUE="655201FD" />
+    </ITEM>
+    <ITEM NAME="6">
+     <NODE NAME="Guid" TYPE="string" VALUE="ffffffff-ffff-ffff-ffff-ffff80000004" />
+     <NODE NAME="NameResId" TYPE="number" VALUE="1323000A" />
+     <NODE NAME="ActionCode" TYPE="number" VALUE="2" />
+     <NODE NAME="TriggerType" TYPE="number" VALUE="4" />
+     <NODE NAME="TriggerSettings" TYPE="number" VALUE="3" />
+     <NODE NAME="TriggerSettingsTime" TYPE="number" VALUE="1" />
+     <NODE NAME="StartFailSettings" TYPE="number" VALUE="1" />
+     <NODE NAME="DontExecuteOnBattery" TYPE="number" VALUE="1" />
+     <NODE NAME="Params" TYPE="string" VALUE="&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot;?>&lt;PARAMS>&lt;SCHEDULED_TASK PLUGIN=&quot;1000600&quot; ACTION=&quot;2&quot; DESCRIPTION=&quot;&quot;>&lt;DATA>&lt;NODE NAME=&quot;thread_priority&quot; VALUE=&quot;FFFFFFFE&quot; TYPE=&quot;DWORD&quot; />&lt;NODE NAME=&quot;scan_level&quot; VALUE=&quot;FFF&quot; TYPE=&quot;DWORD&quot; />&lt;/DATA>&lt;/SCHEDULED_TASK>&lt;/PARAMS>" />
+     <NODE NAME="EditedTime" TYPE="number" VALUE="655201FD" />
+    </ITEM>
+    <ITEM NAME="7">
+     <NODE NAME="Guid" TYPE="string" VALUE="ffffffff-ffff-ffff-ffff-ffff80000005" />
+     <NODE NAME="NameResId" TYPE="number" VALUE="1323000B" />
+     <NODE NAME="ActionCode" TYPE="number" VALUE="1" />
+     <NODE NAME="ModuleID" TYPE="number" VALUE="1000100" />
+     <NODE NAME="StartFailSettings" TYPE="number" VALUE="2" />
+     <NODE NAME="Enabled" TYPE="number" VALUE="0" />
+     <NODE NAME="Params" TYPE="string" VALUE="&lt;?xml version=&quot;1.0&quot;?>&lt;SCHEDULED_TASK>&lt;SCHEDULED_TASK PLUGIN=&quot;1000100&quot; ACTION=&quot;0&quot; DESCRIPTION=&quot;&quot;>&lt;DATA>&lt;NODE NAME=&quot;FIRST_SCAN&quot; VALUE=&quot;1&quot; TYPE=&quot;DWORD&quot;/>&lt;NODE NAME=&quot;TARGETS&quot; VALUE=&quot;${DriveSystem}&quot; TYPE=&quot;STRING&quot;/>&lt;NODE NAME=&quot;AFTER_SCAN_ACTION_TYPE&quot; VALUE=&quot;0&quot; TYPE=&quot;DWORD&quot;/>&lt;NODE NAME=&quot;SCAN_CANNOT_BE_CANCELLED&quot; VALUE=&quot;0&quot; TYPE=&quot;DWORD&quot;/>&lt;/DATA>&lt;/SCHEDULED_TASK>&lt;/SCHEDULED_TASK>" />
+     <NODE NAME="EditedTime" TYPE="number" VALUE="655201FD" />
+    </ITEM>
+    <ITEM NAME="8">
+     <NODE NAME="Guid" TYPE="string" VALUE="ffffffff-ffff-ffff-ffff-ffff00000003" />
+     <NODE NAME="Name" TYPE="string" VALUE="Computer Scan (Smart Scan)" />
+     <NODE NAME="ModuleID" TYPE="number" VALUE="1000100" />
+     <NODE NAME="TriggerType" TYPE="number" VALUE="3" />
+     <NODE NAME="TriggerSettings" TYPE="number" VALUE="11" />
+     <NODE NAME="TriggerSettingsTime" TYPE="number" VALUE="EF10" />
+     <NODE NAME="DontExecuteOnBattery" TYPE="number" VALUE="1" />
+     <NODE NAME="Params" TYPE="string" VALUE="&lt;?xml version=&quot;1.0&quot;?>&lt;SCHEDULED_TASK>&lt;SCHEDULED_TASK PLUGIN=&quot;16777472&quot; ACTION=&quot;0&quot;>&lt;DATA>&lt;NODE NAME=&quot;PROFILE&quot; VALUE=&quot;@Smart scan&quot; TYPE=&quot;STRING&quot;/>&lt;NODE NAME=&quot;TARGETS&quot; VALUE=&quot;${Memory}|${DriveAllBoot}|${DriveAll}&quot; TYPE=&quot;STRING&quot;/>&lt;NODE NAME=&quot;READONLY&quot; VALUE=&quot;0&quot; TYPE=&quot;DWORD&quot;/>&lt;NODE NAME=&quot;AFTER_SCAN_ACTION_TYPE&quot; VALUE=&quot;0&quot; TYPE=&quot;DWORD&quot;/>&lt;NODE NAME=&quot;SCAN_CANNOT_BE_CANCELLED&quot; VALUE=&quot;0&quot; TYPE=&quot;DWORD&quot;/>&lt;/DATA>&lt;/SCHEDULED_TASK>&lt;/SCHEDULED_TASK>" />
+     <NODE NAME="EditedTime" TYPE="number" VALUE="655201FD" />
+    </ITEM>
+   </ITEM>
+   <ITEM NAME="exec" DELETE="1">
+    <ITEM NAME="1">
+     <NODE NAME="Guid" TYPE="string" VALUE="ffffffff-ffff-ffff-ffff-ffff80000001" />
+     <NODE NAME="LastExec" TYPE="number" VALUE="6552032C" />
+    </ITEM>
+    <ITEM NAME="2">
+     <NODE NAME="Guid" TYPE="string" VALUE="ffffffff-ffff-ffff-ffff-ffff80000100" />
+     <NODE NAME="LastExec" TYPE="number" VALUE="65520278" />
+    </ITEM>
+    <ITEM NAME="3">
+     <NODE NAME="Guid" TYPE="string" VALUE="ffffffff-ffff-ffff-ffff-ffff80000102" />
+     <NODE NAME="LastExec" TYPE="number" VALUE="65520200" />
+    </ITEM>
+    <ITEM NAME="4">
+     <NODE NAME="Guid" TYPE="string" VALUE="ffffffff-ffff-ffff-ffff-ffff80000003" />
+     <NODE NAME="LastExec" TYPE="number" VALUE="65520200" />
+    </ITEM>
+    <ITEM NAME="5">
+     <NODE NAME="Guid" TYPE="string" VALUE="ffffffff-ffff-ffff-ffff-ffff80000004" />
+     <NODE NAME="LastExec" TYPE="number" VALUE="655202A3" />
+    </ITEM>
+    <ITEM NAME="6">
+     <NODE NAME="Guid" TYPE="string" VALUE="ffffffff-ffff-ffff-ffff-ffff80000005" />
+    </ITEM>
+    <ITEM NAME="7">
+     <NODE NAME="Guid" TYPE="string" VALUE="ffffffff-ffff-ffff-ffff-ffff80000101" />
+    </ITEM>
+    <ITEM NAME="8">
+     <NODE NAME="Guid" TYPE="string" VALUE="ffffffff-ffff-ffff-ffff-ffff00000003" />
+    </ITEM>
+   </ITEM>
+  </ITEM>
+ </PRODUCT>
+</ESET>
